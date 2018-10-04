@@ -1,0 +1,15 @@
+
+.row {
+    display: flex;
+    max-width: 200px;
+    margin-bottom: 5px;
+}
+
+input, label {
+    flex: 1;
+}
+
+
+#btnStatus, #btnClear2 {
+   margin-top: 10px;
+}

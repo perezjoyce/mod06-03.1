@@ -7,20 +7,18 @@ document.getElementById('btnAssess').onclick = () => {
     // declare variables
     let num = document.getElementById('numberInput').value;
 
-    // if input is not a number
-    if (isNaN(num)) {
-        alert('invalid input'); 
-        break;
-    }
-
     num = parseInt(num % 2);    
 
     if (num == 0) {
         alert('even');
     }
 
-    else {
+    else if (num >= 1 ) {
         alert('odd');
+    }
+
+    else {
+        alert('invalid input');
     }
 
 }
